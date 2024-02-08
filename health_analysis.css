@@ -1,0 +1,98 @@
+/* Apply general styles to the body and text */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the form elements */
+  .analysisForm {
+    margin-bottom: 30px;
+  }
+  
+  .analysisForm div {
+    margin-bottom: 15px;
+  }
+  
+  .analysisForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .analysisForm input[type="text"],
+  .analysisForm input[type="number"],
+  .analysisForm select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .analysisForm button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .analysisForm button.clicked {
+    background-color: #0056b3;
+  }
+  
+  /* Style the search results */
+  .searchCondition {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  /* Responsive design */
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  
+    nav ul li:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
